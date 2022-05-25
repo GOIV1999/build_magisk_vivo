@@ -1,9 +1,9 @@
 name: Magisk Build
 
 on:
-  push:
-    branches: [ master ]
-
+ push:
+    paths-ignore:
+      - 'README.md'
 jobs:
   build:
     name: Build on Magisk
